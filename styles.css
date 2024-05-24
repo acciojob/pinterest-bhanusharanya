@@ -17,22 +17,22 @@
             object-fit: cover;
             margin-bottom: 20px;
         }
-        .hero h1 {
+        .card h1 {
             font-size: 2em;
             margin-bottom: 10px;
         }
-        .hero p {
+        .card p {
             font-size: 1.2em;
             margin-bottom: 20px;
         }
-        .hero a {
+        .card a {
             padding: 10px 20px;
             background-color: #007BFF;
             color: white;
             text-decoration: none;
             border-radius: 5px;
         }
-        .hero a:hover {
+        .card a:hover {
             background-color: #0056b3;
         }
 .card{
