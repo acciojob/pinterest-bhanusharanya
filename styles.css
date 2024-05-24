@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+            height: 100vh;
+        }
+        .hero img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero a {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .hero a:hover {
+            background-color: #0056b3;
+        }
+.card{
+	padding:10px;
+}
+   
