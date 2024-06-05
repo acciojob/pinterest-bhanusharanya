@@ -1,48 +1,18 @@
-/*  your css code here. If applicable */
 
-        .hero {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: row;
-            text-align: center;
-            padding: 20px;
-            background-color: #f0f0f0;
-            height: 100vh;
-        }
-        .hero img {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-        .card h1 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .card p {
-            font-size: 1.2em;
-            margin-bottom: 20px;
-        }
-        .card a {
-            padding: 10px 20px;
-            background-color: #007BFF;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-        .card a:hover {
-            background-color: #0056b3;
-        }
-    .card{
-	padding:10px;
-    }
-.btn{
-	padding:10px;
-background-color:red;
-color:white;
-border-radius:8px;
+ img{
+	width : 400px;
+	height : 200px;
+	object-fit: cover;
 
 }
-   
+.hero h1 p{
+	display :flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.hero button{
+	background-color: red;
+	padding : 10px 20px;
+	border-radius : 5px;
+	cursor : pointer;
+}
